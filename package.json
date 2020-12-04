@@ -56,5 +56,16 @@
       "prettier --write",
       "git add"
     ]
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasanirogers/kemet-scroll-link.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hasanirogers/kemet-scroll-link/issues"
+  },
+  "homepage": "http://kemet.online/scrolllink"
 }
