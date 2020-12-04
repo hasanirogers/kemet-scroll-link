@@ -1,4 +1,4 @@
-# \<kemet-drawer>
+# \<kemet-scroll-link>
 
 ## Installation
 ```bash

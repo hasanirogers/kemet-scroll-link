@@ -3,30 +3,36 @@
   "tags": [
     {
       "name": "kemet-scroll-link",
-      "description": "A component with a title and an action counter",
+      "description": "A component that adds a smooth scrolling link to an target.",
       "properties": [
         {
-          "name": "title",
-          "type": "String",
-          "description": "The title of your component",
-          "default": "Hey there"
+          "name": "element",
+          "type": "Object",
+          "description": "A DOM element that establishes the context of scrolling.",
+          "default": "window"
         },
         {
-          "name": "counter",
+          "name": "target",
+          "type": "Object",
+          "description": "A DOM element that represents the destination of the scroll link",
+          "default": "body"
+        },
+        {
+          "name": "xOffset",
           "type": "Number",
-          "description": "An action counter",
+          "description": "Allows the horizontal scrolling to stop short of the given value.",
+          "default": 0
+        },
+        {
+          "name": "yOffset",
+          "type": "Number",
+          "description": "Allows the vertical scrolling to stop short of the given value.",
           "default": 0
         }
       ],
       "events": [],
       "slots": [],
-      "cssProperties": [
-        {
-          "name": "--kemet-scroll-link-text-color",
-          "description": "Main Text Color",
-          "type": "Color"
-        }
-      ]
+      "cssProperties": []
     }
   ]
 }
