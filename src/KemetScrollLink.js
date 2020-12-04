@@ -7,10 +7,6 @@ export class KemetScrollLink extends LitElement {
         cursor: pointer;
         display: inline-block;
       }
-
-      a {
-        display: inline-block;
-      }
     `;
   }
 
